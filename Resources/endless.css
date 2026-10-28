@@ -1,0 +1,135 @@
+.syne-tactile-regular {
+  font-family: "Syne Tactile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background: radial-gradient(circle at top left, #079294 40%, #032b2b 100%);
+}
+#title3 {
+  color: blue;
+  font-size: 70px;
+  font-family: Papyrus, sans-serif, serif;
+  text-shadow: 0px 0px 5px rgba(12, 12, 125, 0.60);
+  transition: font-size 0.2s ease;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Syne Tactile", sans-serif, serif;
+}
+p {
+  height: 400px;
+  width: 900px;
+  border: 3px solid #000000;
+  background-color: #2d2da1;
+  border-radius: 7%;
+  text-align: center;
+  padding: 70px;
+  margin: auto auto 70px;
+  transition: height 0.2s ease, width 0.2s ease;
+}
+#button3 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  background: black;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+#button3:hover {
+    color: grey;
+    text-shadow: 0px 0px 8px grey;
+    box-shadow: 5px 5px;
+  }
+#button3:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+#title3, h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 320px) {
+  #title3 {
+    font-size: 20px;
+  }
+  h4 {
+  font-size: 20px;
+  }
+  h4 {
+  font-size: 10px;
+  }
+  p {
+  height: 20px;
+  width: 100px;
+  }
+   #button3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 375px) {
+  #title3 {
+    font-size: 25px;
+  }
+  h4 {
+  font-size: 12px;
+  }
+  p {
+  height: 55px;
+  width: 200px;
+  }
+  #button3 {
+    font-size: 25px;
+}
+}
+@media (min-width: 425px) {
+  #title3 {
+    font-size: 30px;
+  }
+  h4 {
+  font-size: 14px;
+  }
+  p {
+  height: 100px;
+  width: 340px;
+  }
+  #button3 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  #title3 {
+    font-size: 56px;
+  }
+  h4 {
+  font-size: 17px;
+  }
+  p {
+  height: 260px;
+  width: 670px;
+  }
+  #button3 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  #title3 {
+    font-size: 70px;
+  }
+  h4 {
+  font-size: 20px;
+  }
+  p {
+  height: 400px;
+  width: 900px;
+  }
+  #button3 {
+    font-size: 60px;
+  }
+}

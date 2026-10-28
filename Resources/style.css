@@ -1,0 +1,298 @@
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.syne-tactile-regular {
+  font-family: "Syne Tactile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.caesar-dressing-regular {
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: rgba(0, 0, 255, 0.90);
+  font-size: 58px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  text-shadow: 5px 5px 8px rgba(74, 11, 0, 0.70);
+  transition: font-size 0.2s ease;
+}
+h2 {
+  color: rgba(0,128,0,0.7);
+  font-size: 38px;
+  line-height: 0;
+  font-family: "Press Start 2P", sans-serif, serif;
+  text-shadow: 5px 5px 6px rgba(4, 74, 0, 1);
+  text-decoration-line: underline;
+  transition: font-size 0.2s ease;
+}
+h4 {
+  font-family: "Syne Tactile", sans-serif, serif;
+}
+p {
+  font-family: "Syne Tactile", sans-serif, serif;
+  text-decoration-line: underline;
+  line-height: 0;
+}
+body {
+background: radial-gradient(circle at bottom right, #820038 55%, red 100%);
+  width: 99%;
+  height: 100%;
+  color: #fff;
+  font-family: sans-serif, serif;
+}
+td {
+  text-align: center;
+}
+  #button2 {
+  color: #b56905;
+  font-weight: bold;
+  font-size: 60px;
+  background: #595159;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Syne Mono", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+  #button2:hover {
+    color: cyan;
+    text-shadow: 0px 0px 8px cyan;
+    box-shadow: 5px 5px;
+  }
+  #button2:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+  #button3 {
+  background: #689;
+  color: #4a0c87;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: Papyrus, sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s;
+}
+  #button3:hover {
+    color: yellow;
+    text-shadow: 0px 0px 8px yellow;
+    box-shadow: 5px 5px;
+  }
+  #button3:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+  #button1 {
+  color: grey;
+  font-weight: bold;
+  font-size: 40px;
+  background: black;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+  #button1:hover {
+    color: white;
+    text-shadow: 0px 0px 8px white;
+    box-shadow: 5px 5px;
+  }
+  #button1:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+#by {
+  font-size: 50px;
+  font-family: "Syne Mono", sans-serif, serif;
+  transition: font-size 0.2s ease;
+}
+#name {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 50px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  text-shadow: 3px 3px 6px rgba(61, 1, 1, 1);
+  transition: font-size 0.2s ease;
+}
+table {
+  font-family: serif, sans-serif;
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2rem solid #333;
+  width: 75%;
+  border-radius: 20%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+td:hover {
+text-shadow: 0px 0px 10px white;
+transition: text-shadow 0.4s;
+}
+.ttop:hover {
+  text-shadow: 0px 0px 10px white;
+  transition: text-shadow 0.4s;
+}
+.tlleft:hover{
+  text-shadow: 0px 0px 10px white;
+  transition: text-shadow 0.4s;
+}
+#ttopr:hover {
+  text-shadow: 0px 0px 10px white;
+  transition: text-shadow 0.4s;
+}
+section, section2, section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section, section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+h1, h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+#by, #name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#s-table {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#score {
+  align-self: center;
+}
+@media (min-width: 320px) {
+  h1 {
+    font-size: 10px;
+  }
+  #button1 {
+    font-size: 10px;
+  }
+  #button2 {
+    font-size: 20px;
+  }
+  #button3 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  #by, #name {
+    font-size: 16px;
+  }
+}
+@media (min-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
+  #button1 {
+    font-size: 16px;
+  }
+  #button2 {
+    font-size: 25px;
+  }
+  #button3 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  #by, #name {
+    font-size: 20px;
+  }
+}
+@media (min-width: 425px) {
+  h1 {
+    font-size: 23px;
+  }
+  #button1 {
+    font-size: 25px;
+  }
+  #button2 {
+    font-size: 35px;
+  }
+  #button3 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  #by, #name {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 43px;
+  }
+  #button1 {
+    font-size: 35px;
+  }
+  #button2 {
+    font-size: 45px;
+  }
+  #button3 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 33px;
+  }
+  #by, #name {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 58px;
+  }
+  #button1 {
+    font-size: 40px;
+  }
+  #button2 {
+    font-size: 60px;
+  }
+  #button3 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  #by, #name {
+    font-size: 50px;
+  }
+}

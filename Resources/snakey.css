@@ -1,0 +1,171 @@
+.syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.syne-tactile-regular {
+  font-family: "Syne Tactile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  height: 700px;
+  width: auto;
+  max-width: 900px;
+  border: 3px solid #20452b;
+  background-color: #04872c;
+  border-radius: 2%;
+  text-align: center;
+  padding: 70px;
+  margin: auto auto 70px;
+  background-image: conic-gradient(
+    #011a08 0deg 90deg,
+    transparent 90deg 180deg,
+    #011a08 180deg 270deg, 
+    transparent 270deg 360deg
+  );
+  background-size: 80px 80px; 
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+  transition: height 0.2s ease, max-width 0.2s ease;
+}
+#button3 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  background: black;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+#button3:hover {
+    color: grey;
+    text-shadow: 0px 0px 8px grey;
+    box-shadow: 5px 5px;
+  }
+#button3:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+body {
+  background: radial-gradient(circle at bottom center, #214032 40%, #51b06f 100%);
+}
+#title2 {
+  color: rgba(59, 48, 15, 0.5);
+  font-size: 70px;
+  line-height: 1;
+  font-family: "Syne Mono", sans-serif, serif;
+  text-shadow: 0px 0px 6px rgba(74, 11, 0, 0.60);
+  transition: font-size 0.2s ease;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Syne Tactile", sans-serif, serif;
+}
+#title2, h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 320px) {
+  #title2 {
+    font-size: 20px;
+  }
+  h4 {
+  font-size: 20px;
+  }
+  h4 {
+  font-size: 10px;
+  }
+  p {
+  height: 180px;
+  width: auto;
+  max-width: 100px;
+  }
+   #button3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 375px) {
+  #title2 {
+    font-size: 33px;
+  }
+  h4 {
+  font-size: 12px;
+  }
+  p {
+  height: 260px;
+  width: auto;
+  max-width: 220px;
+  }
+  #button3 {
+    font-size: 25px;
+}
+}
+@media (min-width: 425px) {
+  #title2 {
+    font-size: 45px;
+  }
+  h4 {
+  font-size: 14px;
+  }
+  p {
+  height: 380px;
+  width: auto;
+  max-width: 380px;
+  }
+  #button3 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 610px) {
+  #title2 {
+    font-size: 45px;
+  }
+  h4 {
+  font-size: 14px;
+  }
+  p {
+  height: 420px;
+  width: auto;
+  max-width: 500px;
+  }
+  #button3 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  #title2 {
+    font-size: 58px;
+  }
+  h4 {
+  font-size: 17px;
+  }
+  p {
+  height: 540px;
+  width: auto;
+  max-width: 700px;
+  }
+  #button3 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  #title2 {
+    font-size: 70px;
+  }
+  h4 {
+  font-size: 20px;
+  }
+  p {
+  height: 700px;
+  width: auto;
+  max-width: 900px;
+  }
+  #button3 {
+    font-size: 60px;
+  }
+}

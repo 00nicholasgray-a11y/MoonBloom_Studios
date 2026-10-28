@@ -1,0 +1,168 @@
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+ color: #ffffff;
+  font-size: 58px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: font-size 0.2s ease;
+}
+body {
+  background: radial-gradient(circle at bottom right, black 60%, gray 100%);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+#button1 {
+  color: #b56905;
+  font-weight: bold;
+  font-size: 60px;
+  background: #595159;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Syne Mono", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+#button1:hover {
+    color: cyan;
+    text-shadow: 0px 0px 8px cyan;
+    box-shadow: 5px 5px;
+  }
+#button1:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+#button2 {
+  background: #689;
+  color: #4a0c87;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: Papyrus, sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+#button2:hover {
+    color: yellow;
+    text-shadow: 0px 0px 8px yellow;
+    box-shadow: 5px 5px;
+  }
+#button2:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+#button3 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  background: black;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Press Start 2P", sans-serif, serif;
+  box-shadow: 2px 2px;
+  transition: color 0.4s, transform 0.1s, box-shadow 0.5s, text-shadow 0.4s, font-size 0.2s;
+}
+#button3:hover {
+    color: grey;
+    text-shadow: 0px 0px 8px grey;
+    box-shadow: 5px 5px;
+  }
+#button3:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+    transition: box-shadow 0.075s, transform 0.1s;
+  }
+section, section2, section3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 320px) {
+  h1 {
+    font-size: 10px;
+  }
+  #button1 {
+    font-size: 10px;
+  }
+  #button2 {
+    font-size: 20px;
+  }
+  #button3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
+  #button1 {
+    font-size: 16px;
+  }
+  #button2 {
+    font-size: 25px;
+  }
+  #button3 {
+    font-size: 25px;
+}
+}
+@media (min-width: 425px) {
+  h1 {
+    font-size: 24px;
+  }
+  #button1 {
+    font-size: 25px;
+  }
+  #button2 {
+    font-size: 35px;
+  }
+  #button3 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+  #button1 {
+    font-size: 35px;
+  }
+  #button2 {
+    font-size: 45px;
+  }
+  #button3 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 58px;
+  }
+  #button1 {
+    font-size: 40px;
+  }
+  #button2 {
+    font-size: 60px;
+  }
+  #button3 {
+    font-size: 60px;
+  }
+}
